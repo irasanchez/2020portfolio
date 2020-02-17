@@ -14,7 +14,7 @@ const StyledNav = styled.nav`
     height: 3rem;
     width: 3rem;
     border: none;
-    border: solid 0.1rem #41403e;
+    border: solid 0.1rem teal;
     border-radius: 83.5% 33.2% 66.9% 47.3%;
     background: teal;
     color: cornsilk;
@@ -42,9 +42,9 @@ const StyledLink = styled(Link)`
   min-width: fit-content;
   margin: 1%;
   height: 3rem;
-  color: black;
+  color: teal;
   text-decoration: none;
-  border: solid 2px #41403e;
+  border: solid 2px teal;
 `
 
 const Header = () => (
