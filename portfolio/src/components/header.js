@@ -8,7 +8,7 @@ const StyledNav = styled.nav`
   align-items: center;
   width: 100%;
   padding: 20px 0;
-  box-shadow: 0px 3px 10px 1px rgba(222, 184, 135, 0.7); /*color name is BurlyWood, using rgba for adjusted opacity */
+  box-shadow: 0px 0.5px 5px 1px rgba(222, 184, 135, 0.7); /*color name is BurlyWood, using rgba for adjusted opacity */
   /* 👇 Make each nav link border unique */
   & ${StyledNav}:nth-child(1) {
     height: 3rem;
