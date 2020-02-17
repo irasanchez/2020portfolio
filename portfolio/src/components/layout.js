@@ -17,7 +17,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header />
-      <div>
+      <div className="container">
         <main>{children}</main>
         <footer>© {new Date().getFullYear()} Ira Sanchez</footer>
       </div>
