@@ -14,19 +14,9 @@ import "typeface-caveat"
 import "./layout.css"
 
 const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
-
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
+      <Header />
       <div>
         <main>{children}</main>
         <footer>© {new Date().getFullYear()} Ira Sanchez</footer>
