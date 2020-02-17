@@ -1,5 +1,4 @@
 import { Link } from "gatsby"
-import PropTypes from "prop-types"
 import React from "react"
 import styled from "styled-components"
 
@@ -57,15 +56,5 @@ const Header = () => (
     <StyledLink to="/">Blog</StyledLink>
   </StyledNav>
 )
-
-// expect siteTitle to be a string
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-// set siteTitle to empty string if missing
-Header.defaultProps = {
-  siteTitle: ``,
-}
 
 export default Header
