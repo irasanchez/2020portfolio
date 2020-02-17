@@ -11492,6 +11492,11 @@ typeface-caveat@^0.0.76:
   resolved "https://registry.yarnpkg.com/typeface-caveat/-/typeface-caveat-0.0.76.tgz#dabfb1bfe26a0a18c81bf6a5dc0d215e1074674f"
   integrity sha512-0xboZn4Jk6J4cOUeGL+F9csUQ8VMPTcuIVg7/GksfVV2RpY5A8yPkYF310puQmDSCGgIxfKdZo7DxD1/HhyaPQ==
 
+typeface-covered-by-your-grace@^0.0.72:
+  version "0.0.72"
+  resolved "https://registry.yarnpkg.com/typeface-covered-by-your-grace/-/typeface-covered-by-your-grace-0.0.72.tgz#ed7b5bffbfd1b9b836941cf627767b095d82cc1f"
+  integrity sha512-n0io5t+BGJJi6tOtNnBao3/mVrP2WE0AuRQknAsv1Ej3YRScKM6v769Bjif4fnKCe0k0xZn/gHM8I+uLzno/Bw==
+
 ua-parser-js@^0.7.18:
   version "0.7.21"
   resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.21.tgz#853cf9ce93f642f67174273cc34565ae6f308777"

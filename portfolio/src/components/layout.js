@@ -10,7 +10,7 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
-import "typeface-caveat"
+import "typeface-covered-by-your-grace"
 import "./layout.css"
 
 const Layout = ({ children }) => {
