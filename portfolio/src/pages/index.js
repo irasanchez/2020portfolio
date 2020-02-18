@@ -21,13 +21,25 @@ const IndexPage = () => {
     <Layout>
       <SEO title="Home" />
       <div className="id-card">
-        <img src={me} />
-        <div>
+        <div className="img-bg">
+          <img src={me} />
+        </div>
+
+        <div className="about-me">
           <h1>Hi, I'm {data.site.siteMetadata.title}. 👋</h1>
           <p>
-            I am a web developer from Earth, specifically Arizona, United
-            States. 🌎
+            I am a full stack software engineer using HTML, CSS, JavaScript
+            (often React.js) to solve problems. 🦸‍♂️
           </p>
+          <p>
+            While I complete my studies, I use my skills as a Team Lead at
+            Lambda School where I oversee a group of students and supplement
+            their learning with tutoring and accountability.
+          </p>
+          <div className="social-links">
+            <a href="#">GitHub</a>
+            <a href="#">LinkedIn</a>
+          </div>
         </div>
       </div>
     </Layout>
