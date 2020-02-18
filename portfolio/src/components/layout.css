@@ -1,5 +1,5 @@
 html {
-  font-family: "Covered By Your Grace", sans-serif;
+  font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -205,7 +205,6 @@ html {
 }
 body {
   color: hsla(0, 0%, 0%, 0.8);
-  font-family: "Covered By Your Grace";
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -392,7 +391,7 @@ dd {
   margin-bottom: 1.45rem;
 }
 p {
-  font-family: "Covered By Your Grace";
+  font-family: sans-serif;
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;

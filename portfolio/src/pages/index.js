@@ -2,6 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import me from "../images/me.svg"
 
 import { useStaticQuery, graphql } from "gatsby"
 import styled from "styled-components"
@@ -20,7 +21,7 @@ const IndexPage = () => {
     <Layout>
       <SEO title="Home" />
       <div className="id-card">
-        <img src="https://source.unsplash.com/random" />
+        <img src={me} />
         <div>
           <h1>Hi, I'm {data.site.siteMetadata.title}. 👋</h1>
           <p>
