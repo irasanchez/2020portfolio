@@ -26,16 +26,23 @@ const IndexPage = () => {
         </div>
 
         <div className="about-me">
-          <h1>Hi, I'm {data.site.siteMetadata.title}. 👋</h1>
-          <p>
-            I am a full stack software engineer using HTML, CSS, JavaScript
-            (often React.js) to solve problems. 🦸‍♂️
-          </p>
-          <p>
-            While I complete my studies, I use my skills as a Team Lead at
-            Lambda School where I oversee a group of students and supplement
-            their learning with tutoring and accountability.
-          </p>
+          <h1>Hi, I'm {data.site.siteMetadata.title}.👋</h1>
+          <div className="paragraphs">
+            <p>
+              I am a full stack software engineer from Earth (Phoenix, AZ, USA).
+              <span>🌎</span>
+              <br />
+              <sub>
+                I am willing to relocate. <span>👨🏽‍🚀</span> <span>🚀</span>
+              </sub>
+            </p>
+            <p>
+              While I complete my studies, I am using my skills as a Team Lead
+              at Lambda School where I oversee a group of students and
+              supplement their learning with tutoring and coaching.
+            </p>
+          </div>
+
           <div className="social-links">
             <a href="#">GitHub</a>
             <a href="#">LinkedIn</a>

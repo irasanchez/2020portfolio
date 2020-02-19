@@ -641,6 +641,7 @@ pre tt:after {
 .id-card {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 .img-bg {
   width: 15rem;
@@ -653,6 +654,12 @@ pre tt:after {
 }
 .about-me {
   width: 50%;
+}
+.about-me .paragraphs {
+  width: 100%;
+}
+sub {
+  float: right;
 }
 .social-links {
   width: 100%;
