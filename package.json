@@ -19,7 +19,9 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-helmet": "^5.2.1",
-    "styled-components": "^5.0.1"
+    "styled-components": "^5.0.1",
+    "typeface-lateef": "^0.0.63",
+    "typeface-patrick-hand-sc": "^0.0.72"
   },
   "devDependencies": {
     "prettier": "^2.0.2"
