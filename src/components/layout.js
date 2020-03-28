@@ -10,6 +10,8 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
 import Nav from "./nav"
+import "typeface-lateef"
+import "typeface-patrick-hand-sc"
 import "./layout.css"
 
 const Layout = ({ children }) => {
