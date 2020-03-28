@@ -615,6 +615,40 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
+
+/* Will need to redo in styled components */
+
+.id-card {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+.img-bg {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 40% 50%;
+  background: rgba(102, 41, 22, 0.6);
+}
+.id-card .img-bg img {
+  width: 100%;
+}
+.about-me {
+  width: 50%;
+}
+.about-me .paragraphs {
+  width: 100%;
+}
+sub {
+  float: right;
+}
+
+.social-links {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
