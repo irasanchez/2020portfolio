@@ -47,7 +47,7 @@ const StyledLink = styled(Link)`
   border: solid 2px teal;
 `
 
-const Header = () => (
+const Nav = () => (
   <StyledNav>
     <StyledLink to="/">IS</StyledLink>
     <StyledLink to="/">Work</StyledLink>
@@ -57,4 +57,4 @@ const Header = () => (
   </StyledNav>
 )
 
-export default Header
+export default Nav

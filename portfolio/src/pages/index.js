@@ -4,19 +4,9 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import me from "../images/me.svg"
 
-import { useStaticQuery, graphql } from "gatsby"
 import styled from "styled-components"
 
 const IndexPage = () => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
   return (
     <Layout>
       <SEO title="Home" />
@@ -26,7 +16,7 @@ const IndexPage = () => {
         </div>
 
         <div className="about-me">
-          <h1>Hi, I'm {data.site.siteMetadata.title}.👋</h1>
+          <h1>Hi, I'm Ira.👋</h1>
           <div className="paragraphs">
             <p>
               I am a full stack software engineer from Earth (Phoenix, AZ, USA).

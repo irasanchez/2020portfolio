@@ -40,9 +40,6 @@ template {
   display: none;
 }
 a {
-  font-family: "Covered By Your Grace";
-  text-transform: uppercase;
-  font-weight: bold;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
@@ -67,7 +64,6 @@ h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
-
 mark {
   background-color: #ff0;
   color: #000;
@@ -192,7 +188,6 @@ html {
   font: 112.5%/1.45em georgia, serif;
   box-sizing: border-box;
   overflow-y: scroll;
-  background-color: floralwhite;
 }
 * {
   box-sizing: inherit;
@@ -205,6 +200,7 @@ html {
 }
 body {
   color: hsla(0, 0%, 0%, 0.8);
+  font-family: georgia, serif;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -225,7 +221,6 @@ img {
   margin-bottom: 1.45rem;
 }
 h1 {
-  text-transform: uppercase;
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
@@ -235,9 +230,8 @@ h1 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: "Covered By Your Grace", -apple-system, BlinkMacSystemFont,
-    Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
-    Helvetica Neue, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 2.25rem;
@@ -328,14 +322,6 @@ h6 {
   font-size: 0.78405rem;
   line-height: 1.1;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: teal;
-}
 hgroup {
   margin-left: 0;
   margin-right: 0;
@@ -391,7 +377,6 @@ dd {
   margin-bottom: 1.45rem;
 }
 p {
-  font-family: sans-serif;
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
@@ -630,12 +615,7 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
-.container {
-  width: 80%;
-  margin: 2rem auto;
-  padding: 2%;
-  box-shadow: 0px 0.5px 5px 1px rgba(222, 184, 135, 0.7);
-}
+
 /* Will need to redo in styled components */
 
 .id-card {
