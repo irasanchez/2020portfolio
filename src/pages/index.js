@@ -47,7 +47,9 @@ const IndexPage = () => {
       <section className="work">
         <h2>🧐 Proof I can build things:</h2>
         <section className="project">
-          <h3>box-o-beats</h3>
+          <a href="https://boxobeats.now.sh/">
+            <h3>box-o-beats</h3>
+          </a>
         </section>
       </section>
       {/*  end work section */}
