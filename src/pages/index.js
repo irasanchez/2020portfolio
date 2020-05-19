@@ -3,6 +3,8 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import me from "../images/me.svg"
+import github from "../images/github.svg"
+import linkedIn from "../images/linkedIn.svg"
 
 import styled from "styled-components"
 
@@ -10,6 +12,7 @@ const IndexPage = () => {
   return (
     <Layout>
       <SEO title="Home" />
+
       <div className="id-card">
         <div className="img-bg">
           <img src={me} />
@@ -34,13 +37,22 @@ const IndexPage = () => {
           </div>
 
           <div className="social-links">
-            <a href="#">GitHub</a>
-            <a href="#">LinkedIn</a>
+            <a className="social-link" href="http://github.com/irasanchez">
+              <img src={github} />
+              <p>GitHub</p>
+            </a>
+            <a
+              className="social-link"
+              href="https://www.linkedin.com/in/ira-sanchez/"
+            >
+              <img src={linkedIn} />
+              <p>LinkedIn</p>
+            </a>
           </div>
         </div>
       </div>
       {/*  end about me section */}
-      <section className="skills">
+      <section className="skills" id="skills">
         <h2>🌄 I have experience with these technologies:</h2>
       </section>
       {/*  end skills section */}

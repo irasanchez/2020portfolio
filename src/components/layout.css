@@ -626,13 +626,14 @@ pre tt:after {
   content: "";
 }
 
-/* Will need to redo in styled components */
+/* Will need to redo in styled components. id-card = home page view*/
 
 .id-card {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   margin-top: 50px;
+  height: calc(100vh - 50px);
 }
 .img-bg {
   width: 15rem;
@@ -658,6 +659,27 @@ sub {
   width: 100%;
   display: flex;
   justify-content: space-around;
+}
+
+.social-link {
+  width: 5rem;
+  border-radius: 60% 50%;
+  background: rgba(222, 184, 135, 0.7);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.social-link img {
+  width: 3rem;
+  padding: 0;
+  margin: 0;
+}
+
+.social-links a p {
+  font-size: 1.2rem;
+  padding: 0;
+  margin: 0;
 }
 
 @media only screen and (max-width: 480px) {
