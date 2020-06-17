@@ -2,7 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Nav from "../components/Nav"
+
 import AboutMe from "../components/AboutMe"
 import Skills from "../components/Skills"
 import Work from "../components/Work"
