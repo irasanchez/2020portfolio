@@ -51,14 +51,16 @@ const StyledLink5 = styled(StyledLink)`
   border-radius: 20px 105px 225px 15px/100px 51px 35px 52px;
 `
 
-const Nav = () => (
-  <StyledNav>
-    <StyledLink1 to="/">IS</StyledLink1>
-    <StyledLink2 to="/#competencies">Work</StyledLink2>
-    {/* <StyledLink3 to="/#skills">Skills</StyledLink3> */}
-    <StyledLink4 to="/">Resume</StyledLink4>
-    <StyledLink5 to="/#resources">Resources</StyledLink5>
-  </StyledNav>
-)
+const Nav = () => {
+  return (
+    <StyledNav>
+      <StyledLink1 to="/">IS</StyledLink1>
+      <StyledLink2 to="/#competencies">Work</StyledLink2>
+      {/* <StyledLink3 to="/#skills">Skills</StyledLink3> */}
+      <StyledLink4 to="/">Resume</StyledLink4>
+      <StyledLink5 to="/#resources">Resources</StyledLink5>
+    </StyledNav>
+  )
+}
 
 export default Nav
