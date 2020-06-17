@@ -2,9 +2,10 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import me from "../images/me.svg"
-import github from "../images/github.svg"
-import linkedIn from "../images/linkedIn.svg"
+import AboutMe from "../components/AboutMe"
+import Skills from "../components/Skills"
+
+import boxobeatsScreenshot from "../images/boxobeatsScreenshot.png"
 
 import styled from "styled-components"
 
@@ -13,55 +14,36 @@ const IndexPage = () => {
     <Layout>
       <SEO title="Home" />
 
-      <div className="id-card">
-        <div className="img-bg">
-          <img src={me} />
-        </div>
-
-        <div className="about-me">
-          <h1>Hi, I'm Ira Sanchez.👋</h1>
-          <div className="paragraphs">
-            <p>
-              I am a full stack software engineer from Earth (Phoenix, AZ, USA).
-              <span>🌎</span>
-              <br />
-              <sub>
-                I am willing to relocate. <span>👨🏽‍🚀</span> <span>🚀</span>
-              </sub>
-            </p>
-            <p>
-              While I complete my studies, I am using my skills as a Team Lead
-              at Lambda School where I oversee a group of students and
-              supplement their learning with tutoring and coaching.
-            </p>
-          </div>
-
-          <div className="social-links">
-            <a className="social-link" href="http://github.com/irasanchez">
-              <img src={github} />
-              <p>GitHub</p>
-            </a>
-            <a
-              className="social-link"
-              href="https://www.linkedin.com/in/ira-sanchez/"
-            >
-              <img src={linkedIn} />
-              <p>LinkedIn</p>
-            </a>
-          </div>
-        </div>
-      </div>
-      {/*  end about me section */}
-      <section className="skills" id="skills">
-        <h2>🌄 I have experience with these technologies:</h2>
-      </section>
+      <AboutMe />
+      <Skills />
       {/*  end skills section */}
       <section className="work">
         <h2>🧐 Proof I can build things:</h2>
         <section className="project">
-          <a href="https://boxobeats.now.sh/">
-            <h3>box-o-beats</h3>
-          </a>
+          <div>
+            <a href="https://boxobeats.now.sh/">
+              <h3>boxobeats</h3>
+            </a>
+            <img src={boxobeatsScreenshot} />
+          </div>
+          <div style={{ border: "1px solid red" }}>
+            <a
+              href="https://documenter.getpostman.com/view/6908215/Szt5fqjV"
+              target="_blank"
+            >
+              Documentation
+            </a>
+            <p>
+              He woke and found her stretched beside him in the dark, curled in
+              his capsule in some coffin hotel, his hands clawed into the shadow
+              of the console. The Sprawl was a square of faint light. Then a
+              mist closed over the black water and the robot gardener. Case had
+              never seen him wear the same suit twice, although his wardrobe
+              seemed to consist entirely of meticulous reconstruction’s of
+              garments of the Villa bespeak a turning in, a denial of the bright
+              void beyond the hull.
+            </p>
+          </div>
         </section>
       </section>
       {/*  end work section */}
