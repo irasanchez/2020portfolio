@@ -24,15 +24,18 @@ const StyledLink = styled(Link)`
   color: teal;
   text-decoration: none;
   border: solid 2px teal;
+  font-size: 1.5rem;
+  font-weight: bold;
 `
 const StyledLink1 = styled(StyledLink)`
-  height: 3rem;
-  width: 3rem;
+  height: 3.5rem;
+  width: 3.5rem;
   border: none;
   border: solid 0.1rem teal;
   border-radius: 83.5% 33.2% 66.9% 47.3%;
   background: teal;
   color: cornsilk;
+  font-size: 2.5rem;
 `
 //add custom borders
 const StyledLink2 = styled(StyledLink)`
@@ -51,10 +54,10 @@ const StyledLink5 = styled(StyledLink)`
 const Nav = () => (
   <StyledNav>
     <StyledLink1 to="/">IS</StyledLink1>
-    <StyledLink2 to="/">Work</StyledLink2>
-    <StyledLink3 to="/#skills">Skills</StyledLink3>
+    <StyledLink2 to="/#competencies">Work</StyledLink2>
+    {/* <StyledLink3 to="/#skills">Skills</StyledLink3> */}
     <StyledLink4 to="/">Resume</StyledLink4>
-    <StyledLink5 to="/">Resources</StyledLink5>
+    <StyledLink5 to="/#resources">Resources</StyledLink5>
   </StyledNav>
 )
 

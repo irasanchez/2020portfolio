@@ -2,10 +2,10 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Nav from "../components/Nav"
 import AboutMe from "../components/AboutMe"
 import Skills from "../components/Skills"
-
-import boxobeatsScreenshot from "../images/boxobeatsScreenshot.png"
+import Work from "../components/Work"
 
 import styled from "styled-components"
 
@@ -15,38 +15,11 @@ const IndexPage = () => {
       <SEO title="Home" />
 
       <AboutMe />
-      <Skills />
-      {/*  end skills section */}
-      <section className="work">
-        <h2>🧐 Proof I can build things:</h2>
-        <section className="project">
-          <div>
-            <a href="https://boxobeats.now.sh/">
-              <h3>boxobeats</h3>
-            </a>
-            <img src={boxobeatsScreenshot} />
-          </div>
-          <div style={{ border: "1px solid red" }}>
-            <a
-              href="https://documenter.getpostman.com/view/6908215/Szt5fqjV"
-              target="_blank"
-            >
-              Documentation
-            </a>
-            <p>
-              He woke and found her stretched beside him in the dark, curled in
-              his capsule in some coffin hotel, his hands clawed into the shadow
-              of the console. The Sprawl was a square of faint light. Then a
-              mist closed over the black water and the robot gardener. Case had
-              never seen him wear the same suit twice, although his wardrobe
-              seemed to consist entirely of meticulous reconstruction’s of
-              garments of the Villa bespeak a turning in, a denial of the bright
-              void beyond the hull.
-            </p>
-          </div>
-        </section>
-      </section>
-      {/*  end work section */}
+      <div id="competencies">
+        <Skills />
+        <Work />
+      </div>
+
       <section className="resources">
         <h2>🤝 Things I've made to help others:</h2>
         <section className="resource">

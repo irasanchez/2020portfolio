@@ -1,4 +1,5 @@
 import React from "react"
+
 import styled from "styled-components"
 import me from "../images/me.svg"
 import github from "../images/github.svg"
@@ -32,12 +33,14 @@ const AboutMe = () => {
         <div className="social-links">
           <a className="social-link" href="http://github.com/irasanchez">
             <img src={github} />
+            <p>GitHub</p>
           </a>
           <a
             className="social-link"
             href="https://www.linkedin.com/in/ira-sanchez/"
           >
             <img src={linkedIn} />
+            <p>LinkedIn</p>
           </a>
         </div>
       </div>
