@@ -3,7 +3,7 @@ import React from "react"
 import styled from "styled-components"
 import me from "../images/me.svg"
 import github from "../images/github.svg"
-import linkedIn from "../images/linkedIn.svg"
+import linkedIn from "../images/linkedin.svg"
 
 const AboutMe = () => {
   return (
