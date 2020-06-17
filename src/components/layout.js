@@ -8,7 +8,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-import Nav from "../components/Nav"
+import Nav from "./nav"
 
 import "typeface-lateef"
 import "typeface-patrick-hand-sc"

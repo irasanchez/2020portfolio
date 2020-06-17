@@ -56,7 +56,6 @@ const Nav = () => {
     <StyledNav>
       <StyledLink1 to="/">IS</StyledLink1>
       <StyledLink2 to="/#competencies">Work</StyledLink2>
-      {/* <StyledLink3 to="/#skills">Skills</StyledLink3> */}
       <StyledLink4 to="/">Resume</StyledLink4>
       <StyledLink5 to="/#resources">Resources</StyledLink5>
     </StyledNav>
