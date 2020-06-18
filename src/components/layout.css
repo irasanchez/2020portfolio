@@ -237,7 +237,7 @@ h1 {
     sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 2.25rem;
+  font-size: 3rem;
   line-height: 1.1;
 }
 h2 {
@@ -386,7 +386,8 @@ dd {
 }
 p {
   line-height: 1.2;
-  font-size: 1.6rem;
+  font-size: 1.3rem;
+  line-height: 2rem;
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
@@ -641,7 +642,7 @@ pre tt:after {
   border-radius: 40% 50%;
   background: rgba(102, 41, 22, 0.6);
 }
-.id-card .img-bg img {
+.id-card .img-bg .portrait {
   width: 100%;
 }
 .about-me {
@@ -662,22 +663,17 @@ sub {
 }
 
 .social-link {
-  width: 5rem;
-  border-radius: 60% 50%;
+  width: 35%;
+  height: 4rem;
+  border-radius: 15px 40px 25px 30px;
   background: rgba(222, 184, 135, 0.7);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.social-link img {
-  width: 3rem;
-  padding: 0;
-  margin: 0;
-}
-
-.social-links a p {
-  font-size: 1.2rem;
+.social-link .icon {
+  width: 45%;
   padding: 0;
   margin: 0;
 }

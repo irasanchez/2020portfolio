@@ -20,7 +20,7 @@ const IndexPage = () => {
         <Work />
       </div>
 
-      <section className="resources">
+      <section id="resources" className="resources">
         <h2>🤝 Things I've made to help others:</h2>
         <section className="resource">
           <h3>

@@ -10,7 +10,7 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import Nav from "../components/Nav"
 
-import "typeface-lateef"
+import "typeface-abeezee"
 import "typeface-patrick-hand-sc"
 import "./layout.css"
 

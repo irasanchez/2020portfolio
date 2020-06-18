@@ -9,7 +9,18 @@ const AboutMe = () => {
   return (
     <div className="id-card">
       <div className="img-bg">
-        <img src={me} />
+        <img className="portrait" src={me} />
+        <div className="social-links">
+          <a className="social-link" href="http://github.com/irasanchez">
+            <img className="icon" src={github} />
+          </a>
+          <a
+            className="social-link"
+            href="https://www.linkedin.com/in/ira-sanchez/"
+          >
+            <img className="icon" src={linkedIn} />
+          </a>
+        </div>
       </div>
 
       <div className="about-me">
@@ -28,20 +39,6 @@ const AboutMe = () => {
             Lambda School where I oversee a group of students and supplement
             their learning with tutoring and coaching.
           </p>
-        </div>
-
-        <div className="social-links">
-          <a className="social-link" href="http://github.com/irasanchez">
-            <img src={github} />
-            <p>GitHub</p>
-          </a>
-          <a
-            className="social-link"
-            href="https://www.linkedin.com/in/ira-sanchez/"
-          >
-            <img src={linkedIn} />
-            <p>LinkedIn</p>
-          </a>
         </div>
       </div>
     </div>
