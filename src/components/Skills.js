@@ -17,7 +17,7 @@ const Section = styled.section`
     margin: auto;
     padding: 0;
     width: 25%;
-    text-align: center;
+    text-align: left;
   }
   .skills {
     width: 90%;
