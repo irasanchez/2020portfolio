@@ -46,6 +46,7 @@ const StyledLink3 = styled(StyledLink)`
 `
 const StyledLink4 = styled(StyledLink)`
   border-radius: 305px 95px 225px 65px/86px 325px 85px 100px;
+  box-shadow: 0px 0.5px 5px 1px rgba(222, 184, 135, 0.7);
 `
 const StyledLink5 = styled(StyledLink)`
   border-radius: 20px 105px 225px 15px/100px 51px 35px 52px;
@@ -56,8 +57,8 @@ const Nav = () => {
     <StyledNav>
       <StyledLink1 to="/">IS</StyledLink1>
       <StyledLink2 to="/#work">Work</StyledLink2>
-      <StyledLink4 to="/">Resume</StyledLink4>
       <StyledLink5 to="/#resources">Resources</StyledLink5>
+      <StyledLink4 to="/#contact">Contact</StyledLink4>
     </StyledNav>
   )
 }
