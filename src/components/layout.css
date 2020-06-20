@@ -255,7 +255,7 @@ h2 {
     sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 1.62671rem;
+  font-size: 2.5rem;
   line-height: 1.1;
 }
 h3 {
@@ -273,7 +273,7 @@ h3 {
     sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 1.38316rem;
+  font-size: 1.6rem;
   line-height: 1.1;
 }
 h4 {
@@ -625,57 +625,6 @@ pre code:after,
 pre tt:before,
 pre tt:after {
   content: "";
-}
-
-/* Will need to redo in styled components. id-card = home page view*/
-
-.id-card {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  margin-top: 50px;
-  height: calc(100vh - 50px);
-}
-.img-bg {
-  width: 15rem;
-  height: 15rem;
-  border-radius: 40% 50%;
-  background: rgba(102, 41, 22, 0.6);
-}
-.id-card .img-bg .portrait {
-  width: 100%;
-}
-.about-me {
-  width: 50%;
-}
-.about-me .paragraphs {
-  width: 100%;
-}
-sub {
-  line-height: 1;
-  float: right;
-}
-
-.social-links {
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-}
-
-.social-link {
-  width: 35%;
-  height: 4rem;
-  border-radius: 15px 40px 25px 30px;
-  background: rgba(222, 184, 135, 0.7);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.social-link .icon {
-  width: 45%;
-  padding: 0;
-  margin: 0;
 }
 
 /* PROJECTS */

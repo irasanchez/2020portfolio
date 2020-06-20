@@ -10,72 +10,88 @@ import styled from "styled-components"
 
 const Section = styled.section`
   width: 100%;
-  height: 20rem;
   display: flex;
-  flex-direction: column;
+  margin-top: 40px;
+  flex-wrap: wrap;
 
-  > div {
+  h3 {
+    margin: auto;
+    padding: 0;
+    width: 23%;
+    text-align: center;
+  }
+  .skills {
+    width: 90%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
   }
+  sub {
+    width: 100%;
+    text-align: right;
+  }
 `
 const Skill = styled.div`
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 25%;
+  margin: 0.5rem;
+
   background-color: teal;
   color: cornsilk;
-  width: 20%;
-  height: 3.5rem;
-  margin: 0 2%;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
   border: 1px solid teal;
-  border-radius: 4.5rem 6.5rem 5.5rem 7.5rem;
-  margin: 1rem;
+  border-radius: 1.5rem 2rem 3rem 0.25rem;
+
   p {
+    padding: 0.25rem;
     margin: 0%;
+    min-width: fit-content;
+    width: 70%;
+    text-align: center;
   }
 `
 const Icon = styled.img`
-  width: 2rem;
+  width: 30%;
+  padding: 0.25rem;
+  padding-left: 1rem;
   margin: 0;
 `
 const Skills = () => {
   return (
-    <Section className="skills" id="skills">
-      <h2>🌄 I have experience with these technologies:</h2>
+    <Section>
       <div>
-        <Skill>
-          <Icon src={javascript} />
-          <p>JavaScript</p>
-        </Skill>
-        <Skill>
-          <Icon src={reactIcon} />
-          <p>React</p>
-        </Skill>
-        <Skill>
-          <Icon src={redux} />
-          <p>Redux</p>
-        </Skill>
-        <Skill>
-          <Icon src={reactrouter} />
-          <p>React Router</p>
-        </Skill>
-        <Skill>
-          <Icon src={python} />
-          <p>Python</p>
-        </Skill>
-        <Skill>
-          <Icon src={html5icon} />
-          <p>HTML</p>
-        </Skill>
-        <Skill>
-          <Icon src={css} />
-          <p>CSS*</p>
-        </Skill>
+        <h3>I have experience with these technologies 👉</h3>
+        <div className="skills">
+          <Skill>
+            <Icon src={javascript} />
+            <p>JavaScript</p>
+          </Skill>
+          <Skill>
+            <Icon src={reactIcon} />
+            <p>React</p>
+          </Skill>
+          <Skill>
+            <Icon src={redux} />
+            <p>Redux</p>
+          </Skill>
+
+          <Skill>
+            <Icon src={python} />
+            <p>Python</p>
+          </Skill>
+          <Skill>
+            <Icon src={html5icon} />
+            <p>HTML</p>
+          </Skill>
+          <Skill>
+            <Icon src={css} />
+            <p>CSS*</p>
+          </Skill>
+        </div>
       </div>
-      <p>*LESS and SASS included</p>
+      <sub>*LESS and SASS included</sub>
     </Section>
   )
 }

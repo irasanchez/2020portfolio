@@ -7,7 +7,7 @@ const StyledNav = styled.nav`
   justify-content: space-evenly;
   align-items: center;
   width: 100%;
-  padding: 20px 0;
+  padding: 10px 0;
   box-shadow: 0px 0.5px 5px 1px rgba(222, 184, 135, 0.7); /*color name is BurlyWood, using rgba for adjusted opacity */
   /* 👇 Make each nav link border unique */
 `
@@ -55,7 +55,7 @@ const Nav = () => {
   return (
     <StyledNav>
       <StyledLink1 to="/">IS</StyledLink1>
-      <StyledLink2 to="/#competencies">Work</StyledLink2>
+      <StyledLink2 to="/#work">Work</StyledLink2>
       <StyledLink4 to="/">Resume</StyledLink4>
       <StyledLink5 to="/#resources">Resources</StyledLink5>
     </StyledNav>

@@ -8,15 +8,15 @@ import Skills from "../components/Skills"
 import Work from "../components/Work"
 
 import styled from "styled-components"
+import ProfileCard from "../components/ProfileCard"
 
 const IndexPage = () => {
   return (
     <Layout>
       <SEO title="Home" />
 
-      <AboutMe />
-      <div id="competencies">
-        <Skills />
+      <ProfileCard />
+      <div id="work">
         <Work />
       </div>
 
