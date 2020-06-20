@@ -24,7 +24,6 @@ const Social = () => {
       <ImgBg>
         <img src={me} />
       </ImgBg>
-      <SocialLinks />
     </StyledSection>
   )
 }

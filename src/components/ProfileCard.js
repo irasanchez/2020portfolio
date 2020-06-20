@@ -7,7 +7,7 @@ import AboutMe from "./AboutMe"
 import Social from "./Social"
 
 const StyledSection = styled.section`
-  margin-top: 25px;
+  margin-top: 40px;
   height: calc(100vh - 50px);
   div {
     display: flex;

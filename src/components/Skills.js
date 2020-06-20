@@ -9,23 +9,22 @@ import python from "../images/python.svg"
 import styled from "styled-components"
 
 const Section = styled.section`
-  width: 100%;
   display: flex;
-  margin-top: 40px;
+  margin-top: 70px;
   flex-wrap: wrap;
 
   h3 {
     margin: auto;
     padding: 0;
-    width: 23%;
+    width: 25%;
     text-align: center;
   }
   .skills {
     width: 90%;
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: space-between;
     flex-wrap: wrap;
+    padding-left: 2rem;
   }
   sub {
     width: 100%;
@@ -36,8 +35,8 @@ const Skill = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 25%;
-  margin: 0.5rem;
+  width: 27%;
+  margin: 0.5rem 0;
 
   background-color: teal;
   color: cornsilk;

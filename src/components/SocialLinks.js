@@ -4,18 +4,17 @@ import linkedIn from "../images/linkedin.svg"
 import styled from "styled-components"
 
 const StyledDiv = styled.div`
-  margin-top: 20px;
-  width: 100%;
+  width: 12%;
   display: flex;
   justify-content: space-evenly;
-  padding: 0.5rem 0;
 `
 
 const StyledLink = styled.a`
   width: 30%;
   height: 3rem;
   border-radius: 15px 40px 25px 30px;
-  background: rgba(222, 184, 135, 0.7);
+  border: 2px solid teal;
+  /* background: rgba(222, 184, 135, 0.7); */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -23,7 +22,7 @@ const StyledLink = styled.a`
 `
 
 const StyledIcon = styled.img`
-  width: 2rem;
+  width: 1.5rem;
   padding: 0;
   margin: 0;
 `
