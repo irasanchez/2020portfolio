@@ -13,12 +13,11 @@ import ProfileCard from "../components/ProfileCard"
 const IndexPage = () => {
   return (
     <Layout>
-      <SEO title="Home" />
+      <SEO title="👋" />
 
       <ProfileCard />
-      <div id="work">
-        <Work />
-      </div>
+
+      <Work />
 
       <section id="resources" className="resources">
         <h2>🤝 Things I've made to help others:</h2>
