@@ -72,7 +72,7 @@ const Project = () => {
         </section>
       </section>
       <section classname="back-end">
-        <h3>Boxobeats Backend</h3>
+        <h3>Boxobeats Back-end</h3>
         <section className="links">
           <a
             href="https://documenter.getpostman.com/view/6908215/Szt5fqjV"
@@ -86,7 +86,7 @@ const Project = () => {
             DOCS
           </a>
           <section className="description">
-            {/* <img src=""/> */}
+            <img src="" />
             <p>
               This is the API built to power the boxobeats front-end. I gathered
               the data, designed the SQL-based database from scratch, and
