@@ -57,7 +57,7 @@ const Skill = styled.div`
 `
 const Icon = styled.img`
   width: 30%;
-  padding: 0.25rem;
+  padding: 0.75rem;
   padding-left: 1rem;
   margin: 0;
 `
