@@ -30,12 +30,12 @@ const StyledIcon = styled.img`
 const SocialLinks = () => {
   return (
     <StyledDiv>
-      <StyledLink href="http://github.com/irasanchez">
+      <StyledLink href="http://github.com/irasanchez" target="_blank">
         <StyledIcon src={github} />
       </StyledLink>
       <StyledLink
-        className="social-link"
         href="https://www.linkedin.com/in/ira-sanchez/"
+        target="_blank"
       >
         <StyledIcon src={linkedIn} />
       </StyledLink>
