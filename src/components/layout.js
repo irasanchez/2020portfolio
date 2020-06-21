@@ -8,7 +8,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-import Nav from "../components/Nav"
+import NavBar from "../components/NavBar"
 
 import "typeface-abeezee"
 import "typeface-patrick-hand-sc"
@@ -32,7 +32,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Nav />
+      <NavBar />
       <div
         style={{
           margin: `0 auto`,

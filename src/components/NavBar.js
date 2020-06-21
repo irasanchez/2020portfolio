@@ -53,7 +53,7 @@ const StyledLink5 = styled(StyledLink)`
   border-radius: 20px 105px 225px 15px/100px 51px 35px 52px;
 `
 
-const Nav = () => {
+const NavBar = () => {
   return (
     <StyledNav>
       <StyledLink1 to="/">IS</StyledLink1>
@@ -65,4 +65,4 @@ const Nav = () => {
   )
 }
 
-export default Nav
+export default NavBar
