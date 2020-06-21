@@ -7,11 +7,7 @@ import html5icon from "../images/html5icon.svg"
 import css from "../images/css3.svg"
 import python from "../images/python.svg"
 import styled from "styled-components"
-
-const randomCornerMaker = () => {
-  //gets random number between 1 and 7 Math.random() * (max - min + 1) + min
-  return `${Math.random() * (7 - 1 + 1) + 1}rem`
-}
+import randomCornerMaker from "../helpers/randomCornerMaker"
 
 const Section = styled.section`
   display: flex;
@@ -72,9 +68,6 @@ const skillData = [
 ]
 
 const Skills = () => {
-  useEffect(() => {
-    randomCornerMaker()
-  }, [])
   return (
     <Section>
       <div>
