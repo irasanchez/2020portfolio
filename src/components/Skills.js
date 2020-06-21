@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect } from "react"
 import javascript from "../images/javascript.svg"
 import reactIcon from "../images/react.svg"
 import redux from "../images/redux.svg"
@@ -7,6 +7,11 @@ import html5icon from "../images/html5icon.svg"
 import css from "../images/css3.svg"
 import python from "../images/python.svg"
 import styled from "styled-components"
+
+const randomCornerMaker = () => {
+  //gets random number between 1 and 7 Math.random() * (max - min + 1) + min
+  return `${Math.random() * (7 - 1 + 1) + 1}rem`
+}
 
 const Section = styled.section`
   display: flex;
@@ -38,10 +43,9 @@ const Skill = styled.div`
   width: 27%;
   margin: 0.5rem 0;
 
-  background-color: teal;
-  color: cornsilk;
-  border: 1px solid teal;
-  border-radius: 1.5rem 2rem 3rem 0.25rem;
+  /* background-color: teal;
+  color: cornsilk; */
+  border: 2px solid teal;
 
   p {
     padding: 0.25rem;
@@ -57,37 +61,39 @@ const Icon = styled.img`
   padding-left: 1rem;
   margin: 0;
 `
+
+const skillData = [
+  { icon: javascript, p: "JavaScript" },
+  { icon: reactIcon, p: "React" },
+  { icon: redux, p: "Redux" },
+  { icon: python, p: "Python" },
+  { icon: html5icon, p: "HTML" },
+  { icon: css, p: "CSS*" },
+]
+
 const Skills = () => {
+  useEffect(() => {
+    randomCornerMaker()
+  }, [])
   return (
     <Section>
       <div>
         <h3>I have experience with these technologies 👉</h3>
         <div className="skills">
-          <Skill>
-            <Icon src={javascript} />
-            <p>JavaScript</p>
-          </Skill>
-          <Skill>
-            <Icon src={reactIcon} />
-            <p>React</p>
-          </Skill>
-          <Skill>
-            <Icon src={redux} />
-            <p>Redux</p>
-          </Skill>
-
-          <Skill>
-            <Icon src={python} />
-            <p>Python</p>
-          </Skill>
-          <Skill>
-            <Icon src={html5icon} />
-            <p>HTML</p>
-          </Skill>
-          <Skill>
-            <Icon src={css} />
-            <p>CSS*</p>
-          </Skill>
+          {skillData.map((skill) => {
+            return (
+              <Skill
+                style={{
+                  borderRadius: `${randomCornerMaker()} ${randomCornerMaker()} ${randomCornerMaker()}
+              ${randomCornerMaker()}/${randomCornerMaker()} ${randomCornerMaker()} ${randomCornerMaker()}
+              ${randomCornerMaker()}`, //generates random edges for each skill
+                }}
+              >
+                <Icon src={skill.icon} />
+                <p>{skill.p}</p>
+              </Skill>
+            )
+          })}
         </div>
       </div>
       <sub>*LESS and SASS included</sub>
