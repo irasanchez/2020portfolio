@@ -23,18 +23,23 @@ const StyledProject = styled.section`
     justify-content: space-between;
     flex-wrap: wrap;
 
-    img {
+    div {
       min-width: 400px;
-      max-width: 45%;
+      width: 45%;
+      flex-grow: 1;
+      padding: 1rem;
+    }
+    img {
+      width: 100%;
     }
     p {
-      max-width: 45%;
+      width: 100%;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
       .tech-stack {
         width: fit-content;
-        margin-top: 10px;
+        margin-top: 15px;
         border-bottom: 2px solid teal;
       }
     }
@@ -59,16 +64,20 @@ const Project = () => {
           </a>
         </section>
         <section className="description">
-          <img src={boxobeatsScreenshot} />
-          <p>
-            boxobeats is a beatbox training app that enables a user to find
-            tutorials for learning how to make individual and combined sounds.
-            The user can also add sounds to focus on for their current practice
-            session while making use of the built-in metronome.
-            <h4 className="tech-stack">
-              Tech Stack: React, Axios, Material UI
-            </h4>
-          </p>
+          <div>
+            <img src={boxobeatsScreenshot} />
+          </div>
+          <div>
+            <p>
+              boxobeats is a beatbox training app that enables a user to find
+              tutorials for learning how to make individual and combined sounds.
+              The user can also add sounds to focus on for their current
+              practice session while making use of the built-in metronome.
+              <h4 className="tech-stack">
+                Tech Stack: React, Axios, Material UI
+              </h4>
+            </p>
+          </div>
         </section>
       </section>
       <section classname="back-end">
@@ -86,15 +95,19 @@ const Project = () => {
             DOCS
           </a>
           <section className="description">
-            <img src="" />
-            <p>
-              This is the API built to power the boxobeats front-end. I gathered
-              the data, designed the SQL-based database from scratch, and
-              deployed it using Heroku.
-              <h4 className="tech-stack">
-                Tech Stack: Node, Express, Knex, PostgreSQL
-              </h4>
-            </p>
+            <div>
+              <img src="" />
+            </div>
+            <div>
+              <p>
+                This is the API built to power the boxobeats front-end. I
+                gathered the data, designed the SQL-based database from scratch,
+                and deployed it using Heroku.
+                <h4 className="tech-stack">
+                  Tech Stack: Node, Express, Knex, PostgreSQL
+                </h4>
+              </p>
+            </div>
           </section>
         </section>
       </section>

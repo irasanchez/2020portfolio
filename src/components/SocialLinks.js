@@ -7,6 +7,9 @@ const StyledDiv = styled.div`
   width: 12%;
   display: flex;
   justify-content: space-evenly;
+  @media (max-width: 900px) {
+    width: 80%;
+  }
 `
 
 const StyledLink = styled.a`

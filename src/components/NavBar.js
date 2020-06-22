@@ -11,15 +11,18 @@ const StyledNav = styled.nav`
   padding: 10px 0;
   box-shadow: 0px 0.5px 5px 1px rgba(222, 184, 135, 0.7); /*color name is BurlyWood, using rgba for adjusted opacity */
   /* 👇 Make each nav link border unique */
+
+  @media (max-width: 900px) {
+    flex-direction: column;
+  }
 `
 
 const StyledLink = styled(Link)`
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  max-width: 20%;
-  min-width: fit-content;
+  width: 20%;
+  min-width: 162px;
   margin: 1%;
   height: 3rem;
   color: teal;
@@ -27,6 +30,9 @@ const StyledLink = styled(Link)`
   border: solid 2px teal;
   font-size: 1.5rem;
   font-weight: bold;
+  @media (max-width: 900px) {
+    width: 80%;
+  }
 `
 const StyledLink1 = styled(StyledLink)`
   height: 3.5rem;
@@ -37,6 +43,9 @@ const StyledLink1 = styled(StyledLink)`
   background: teal;
   color: cornsilk;
   font-size: 2.5rem;
+  @media (max-width: 900px) {
+    width: 10%;
+  }
 `
 //add custom borders
 const StyledLink2 = styled(StyledLink)`
