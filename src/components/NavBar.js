@@ -37,14 +37,17 @@ const StyledLink = styled(Link)`
 const StyledLink1 = styled(StyledLink)`
   height: 3.5rem;
   width: 3.5rem;
+  min-width: 3.5rem;
+  margin: 0;
   border: none;
-  border: solid 0.1rem teal;
   border-radius: 83.5% 33.2% 66.9% 47.3%;
   background: teal;
   color: cornsilk;
   font-size: 2.5rem;
   @media (max-width: 900px) {
-    width: 10%;
+    height: 3.5rem;
+    width: 3.5rem;
+    min-width: 3.5rem;
   }
 `
 //add custom borders
