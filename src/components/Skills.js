@@ -72,12 +72,11 @@ const Skill = styled.div`
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  flex-wrap: nowrap;
   flex-grow: 1;
-  width: 27%;
-  min-width: 190px;
-  margin: 0.5rem 0;
 
+  width: 25%;
+  min-width: 190px;
+  margin: 0.5rem;
   border: 2px solid teal;
 
   p {
