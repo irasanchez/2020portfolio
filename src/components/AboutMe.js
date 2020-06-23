@@ -14,6 +14,9 @@ const StyledSection = styled.section`
   .paragraphs {
     flex-direction: column;
   }
+  @media (max-width: 900px) {
+    width: 100%;
+  }
 `
 
 const AboutMe = () => {

@@ -9,6 +9,9 @@ const StyledSection = styled.section`
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  @media (max-width: 900px) {
+    width: 100%;
+  }
 `
 
 const ImgBg = styled.div`

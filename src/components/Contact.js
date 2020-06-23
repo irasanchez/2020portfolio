@@ -11,6 +11,10 @@ const StyledContact = styled.section`
     flex-direction: column;
     justify-content: space-between;
     height: 50%;
+    @media (max-width: 900px) {
+      width: 80%;
+      margin: 0 auto;
+    }
   }
 `
 const Contact = () => {

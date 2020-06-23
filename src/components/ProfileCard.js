@@ -11,6 +11,9 @@ const StyledSection = styled.section`
   height: calc(100vh - 50px);
   div {
     display: flex;
+    @media (max-width: 900px) {
+      flex-direction: column;
+    }
   }
   /* 
   justify-content: space-around;
@@ -20,6 +23,10 @@ const StyledSection = styled.section`
   sub {
     line-height: 1;
     float: right;
+  }
+  @media (max-width: 900px) {
+    width: 80%;
+    margin: 40px auto 0 auto;
   }
 `
 
