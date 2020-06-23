@@ -1,5 +1,6 @@
 import React from "react"
 import boxobeatsScreenshot from "../images/boxobeatsScreenshot.png"
+import boxobeatsApiScreenshot from "../images/boxobeatsApiScreenshot.png"
 import styled from "styled-components"
 import randomCornerMaker from "../helpers/randomCornerMaker"
 
@@ -96,7 +97,7 @@ const Project = () => {
           </a>
           <section className="description">
             <div>
-              <img src="" />
+              <img src={boxobeatsApiScreenshot} />
             </div>
             <div>
               <p>
