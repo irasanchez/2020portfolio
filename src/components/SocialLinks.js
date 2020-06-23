@@ -15,9 +15,9 @@ const StyledDiv = styled.div`
 const StyledLink = styled.a`
   width: 30%;
   height: 3rem;
+  padding: 0.25rem;
   border-radius: 15px 40px 25px 30px;
   border: 2px solid teal;
-  /* background: rgba(222, 184, 135, 0.7); */
   display: flex;
   flex-direction: column;
   justify-content: center;
