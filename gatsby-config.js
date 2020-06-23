@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Ira Sanchez`,
-    description: `software engineer`,
+    description: `Ira Sanchez is a software engineer from Earth (Phoenix, AZ, USA).🌎`,
     author: `Ira Sanchez`,
   },
   plugins: [
