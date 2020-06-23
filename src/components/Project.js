@@ -60,7 +60,7 @@ const Project = () => {
               ${randomCornerMaker()}`,
             }}
           >
-            APP
+            <span aria-role="img">👉</span> APP
           </a>
         </section>
         <section className="description">
@@ -92,7 +92,7 @@ const Project = () => {
               ${randomCornerMaker()}`,
             }}
           >
-            DOCS
+            <span aria-role="img">👉</span> DOCS
           </a>
           <section className="description">
             <div>
